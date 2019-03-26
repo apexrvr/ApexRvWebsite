@@ -12,6 +12,7 @@ body{
   padding:0;
   margin:0;
   background-color:white;
+  position: absolute;
 }
 
 /* Global  */
@@ -190,7 +191,7 @@ article#main-col{
   margin-bottom: 5em;
   border: #fff 3px solid;
   background-color: #fff;
-  margin-left: 2em;
+  margin-left: 0em;
 }
 
 #boxes .box{
@@ -217,7 +218,7 @@ article#main-col{
 
 .hideme
 {
-    opacity:0;
+    opacity:1;
 }
 
 
