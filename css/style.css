@@ -1,294 +1,287 @@
-
 @keyframes shake {
-    0% {transform: translateX(0); }
-    20% {transform: translateX(5px); }
-    40% {transform: translateX(0); }
-    80% {transform: translateX(-5px); }
-    100% {transform: translateX(0); } }
-          
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(5px);
+  }
+  40% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 
-body{
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:white;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: white;
   position: absolute;
 }
 
 /* Global  */
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-ul{
-  margin:0;
-  padding:0;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-
-.button_1{
-  height:38px;
+.button_1 {
+  height: 38px;
   width: 10em;
-  background:#fff;
-  border:0;
+  background: #fff;
+  border: 0;
   padding-left: 20px;
-  padding-right:20px;
-  color:#5C7AB8;
+  padding-right: 20px;
+  color: #5c7ab8;
 }
 
-.dark{
-  padding:15px;
-  color:#ffffff;
-  margin-top:10px;
-  margin-bottom:10px;
+.dark {
+  padding: 15px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Header   background:	#272B2E;    **/
-header{
-  color:#5C7AB8;
-  padding-top:30px;
-  min-height:70px;
+header {
+  color: #5c7ab8;
+  padding-top: 30px;
+  min-height: 70px;
   position: fixed;
   width: 100%; /* Full width */
   background-color: white;
 }
 
-header .header1 a{
-  color:#5C7AB8;
-  text-decoration:none;
-  font-size:16px;
+header .header1 a {
+  color: #5c7ab8;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-
-header li{
-  display:inline;
+header li {
+  display: inline;
   padding: 0 20px 0 20px;
 }
 
-header #branding{
-  float:left;
+header #branding {
+  float: left;
 }
 
-header #branding h1{
-  margin:0;
+header #branding h1 {
+  margin: 0;
 }
 
-header nav{
-  float:right;
-  margin-top:10px;
+header nav {
+  float: right;
+  margin-top: 10px;
 }
 
-header .highlight, header .current a{
-  color: #5C7AB8;
-  font-weight:bold;
+header .highlight,
+header .current a {
+  color: #5c7ab8;
+  font-weight: bold;
 }
 
-
-header .header2 a{
-  color:#fff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
-}
-
-
-
-header .highlight2, header .current a{
+header .header2 a {
   color: #fff;
-  font-weight:bold;
-  
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
-header .header1 a:hover{
-  border-bottom: 1px solid #5C7AB8;
+header .highlight2,
+header .current a {
+  color: #fff;
+  font-weight: bold;
 }
 
-header .header2 a:hover{
+header .header1 a:hover {
+  border-bottom: 1px solid #5c7ab8;
+}
+
+header .header2 a:hover {
   border-bottom: 1px solid #fff;
 }
 
-.header2{
-  display: none; 
+.header2 {
+  display: none;
 }
 
-
 /* Showcase */
-#showcaseback{
-  background-color: #5C7AB8;
-} 
+#showcaseback {
+  background-color: #5c7ab8;
+}
 
-#showcase{
+#showcase {
   width: 100%;
-  min-height:825px;
+  min-height: 825px;
   margin-top: 0em;
   /* background:url('../img/showcase1.jpg') no-repeat 0 0px; */
   background-size: 100% 100%;
-  text-align:center;
+  text-align: center;
   color: #fff;
   background-position: center center;
 }
 
-.showcasetext{
+.showcasetext {
   color: white;
   font-size: 30px;
   text-align: center;
 }
 
-
-
-#showcase h1{
-  margin-top:250px;
-  font-size:55px; 
+#showcase h1 {
+  margin-top: 250px;
+  font-size: 55px;
 }
 
-.main{
+.main {
   margin-top: 0em;
   background-color: white;
 }
 
-article#main-col{
-  width:100%;
+article#main-col {
+  width: 100%;
   margin-bottom: 0em;
 }
 
-.ptext{
-  color: #5C7AB8;
+.ptext {
+  color: #5c7ab8;
   font-size: 30px;
   text-align: center;
   margin-top: 5em;
 }
 
 /* what we do */
-.title{
+.title {
   height: 200px;
-  background-color: #5C7AB8;
+  background-color: #5c7ab8;
 }
 
-.titletext{
-    margin: 0 auto;
-    padding-top: 2.5em;
-    color: #5C7AB8;
-    font-size: 30px;
-    text-align: center;
-    border-bottom: 1px solid #fff;
-    width: 10em;
-    margin-bottom: 2em;
+.titletext {
+  margin: 0 auto;
+  padding-top: 2.5em;
+  color: #5c7ab8;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  width: 10em;
+  margin-bottom: 2em;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.showcasetext{
+.showcasetext {
   margin: 0 auto;
   border-bottom: 1px solid #fff;
   width: 11.4em;
 }
 
-#boxes{
+#boxes {
   margin-bottom: 5em;
   border: #fff 3px solid;
   background-color: #fff;
   margin-left: 0em;
 }
 
-#boxes .box{
-  float:left;
+#boxes .box {
+  float: left;
   text-align: center;
-  width:30%;
-  padding:10px;
-  margin-top:1em;
+  width: 30%;
+  padding: 10px;
+  margin-top: 1em;
   margin-bottom: 5em;
   max-width: 30em;
-
 }
-#boxes .box img{
-  width:110px;
+#boxes .box img {
+  width: 110px;
 }
-.box img:hover{
-  animation: shake .4s infinite;
-}
-
- .fas:hover{
-  animation: shake .4s infinite;
+.box img:hover {
+  animation: shake 0.4s infinite;
 }
 
-
-.hideme
-{
-    opacity:1;
+.fas:hover {
+  animation: shake 0.4s infinite;
 }
 
-
+.hideme {
+  opacity: 1;
+}
 
 /* Services */
-.services{
-  background-color: #5C7AB8;
-  text-align: center; 
+.services {
+  background-color: #5c7ab8;
+  text-align: center;
   color: #fff;
-  padding-bottom: 12em;
-  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-top: 0em;
   margin-top: 0em;
 }
 
-.blue{
-  color: #fff
+.blue {
+  color: #fff;
 }
 
-
-
 /* Contact form */
-.contact{
+.contact {
   background-color: #fff;
-  color: #5C7AB8;
+  color: #5c7ab8;
   margin-bottom: 10em;
 }
 
-.titletext2{
+.titletext2 {
   padding-top: 2.5em;
-    color: #5C7AB8;
-    font-size: 30px;
-    text-align: center;
+  color: #5c7ab8;
+  font-size: 30px;
+  text-align: center;
 }
 
 #contact form {
   margin: auto;
   margin-top: 3em;
   padding: 2em 2px 2px 4px;
-  text-align:center;
+  text-align: center;
   margin-bottom: 5.5em;
-  color: #5C7AB8;
-  background-color: #5C7AB8;
+  color: #5c7ab8;
+  background-color: #5c7ab8;
   width: 50em;
 }
 
-#contact input{
-  padding:4px;
-  height:25px;
+#contact input {
+  padding: 4px;
+  height: 25px;
   width: 30em;
   margin-bottom: 2em;
 }
 
-.contact a{
-  color:#5C7AB8;
-  text-decoration:none;
+.contact a {
+  color: #5c7ab8;
+  text-decoration: none;
   text-transform: uppercase;
-  font-size:16px; 
+  font-size: 16px;
 }
 
-
-
-.center{
+.center {
   text-align: center;
 }
-.labeltext{
+.labeltext {
   color: white;
   margin-right: 1em;
 }
 
-textarea{
+textarea {
   width: 31em;
   height: 5em;
   margin-bottom: 1em;
@@ -299,54 +292,48 @@ textarea{
 .maps {
   width: 100%;
   height: 400px;
-  background-color: #5C7AB8;
+  background-color: #5c7ab8;
   margin-bottom: 8em;
 }
 
-.nomap{
+.nomap {
   display: none;
   text-align: center;
-  color: #5C7AB8;
+  color: #5c7ab8;
 }
 
 /* footer */
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:white;
-  background-color: #5C7AB8;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #5c7ab8;
   text-align: center;
 }
 
-.Row
-{
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
 }
-.Column
-{
-    display: table-cell;
+.Column {
+  display: table-cell;
 }
 
-.icon{
+.icon {
   width: 40px;
   height: 40px;
-  margin: .5em;
+  margin: 0.5em;
 }
 
-.icon:hover{
-  animation: shake .4s infinite;
-
+.icon:hover {
+  animation: shake 0.4s infinite;
 }
 /* Icon size */
 
-
-
-
 /* Media Queries */
-@media(max-width: 768px){
+@media (max-width: 768px) {
   header #branding,
   header nav,
   header nav li,
@@ -354,48 +341,46 @@ footer{
   #newsletter form,
   #boxes .box,
   article#main-col,
-  aside#sidebar{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
-
-  header{
-    padding-bottom:20px;
-  }
-
-  #showcase h1{
-    margin-top:400px;
-    font-size: 40px;
-  }
-  
-  #contact form{
-    margin: 0 auto;
-    text-align:center;
+  aside#sidebar {
+    float: none;
+    text-align: center;
     width: 100%;
   }
-  #contact input{
-    padding:4px;
-    height:25px;
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 400px;
+    font-size: 40px;
+  }
+
+  #contact form {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  #contact input {
+    padding: 4px;
+    height: 25px;
     width: 20em;
     margin-bottom: 2em;
   }
-  textarea{
+  textarea {
     width: 21em;
     height: 5em;
     margin-bottom: 1em;
   }
 
-  
-#boxes .box{
-  margin-left: 0em;
-}
-header li{
-  display: block;
-}
+  #boxes .box {
+    margin-left: 0em;
+  }
+  header li {
+    display: block;
+  }
 
-header ul{
-  margin-right: 25px;
-}
-
+  header ul {
+    margin-right: 25px;
+  }
 }
