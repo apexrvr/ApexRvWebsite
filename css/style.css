@@ -296,8 +296,11 @@ footer {
   overflow: hidden;
 }
 
-#servicesmobile {
+/* #servicesmobile {
   display: none;
+} */
+
+.showcaseimg3 {
 }
 
 /* Media Queries */
@@ -305,10 +308,10 @@ footer {
   .showcaseimg {
     height: 200px;
   }
-  .servicesleft,
+  /* .servicesleft,
   .showcaseimg2 {
     display: none;
-  }
+  } */
 
   #showcase h1 {
     margin-top: 100px;
